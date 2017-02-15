@@ -25,10 +25,43 @@
   </head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
+    <!--<my-app>Loading AppComponent content here ...</my-app>-->
+    
+      <header>
+        <div class="headup">
+          <img id="logo" ng-src="{{logo.logo-white}}">
+          <!--<h1 class="title">ZESHOW</h1>-->
+          <div class="compte">
+            <img ng-src="img/account.png" alt="compte">
+          </div>
+          <div class="recruit_access">
+            <a href="#"><p>Accès recruteurs</p></a>
+          </div>
+        </div>
+        <div class="headdown">
+          <ul>
+            <li>Notre objectif</li>
+            <li>Mes outils</li>
+            <li>Toutes les offres</li>
+          </ul>
+        </div>
+      </header>
+      <div class="content">
+        <div class="search">
+          <div class="search_bar">
+            <input type="text" placeholder="Mots clés">
+            <input type="text" placeholder="Ville, Code postal">
+            <input type="submit">
+          </div>
+        </div>
+      <div class="container"></div>
+      </div>
+      <footer></footer>
+    
   </body>
 
   <!-- bootstrap js -->
+  <script src="img.json"></script>
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/tether/dist/js/tether.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
